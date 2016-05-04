@@ -6,7 +6,7 @@ Criptext node JS library to call to the REST API of the Monkey Protocol.
 
 ```javascript
 
-var MonkeyApi = require('monkey-api.js');
+var MonkeyApi = require('criptext-monkey-api');
 
 monkeyApi = new MonkeyApi("<API-ID>","<API-KEY>");
 
