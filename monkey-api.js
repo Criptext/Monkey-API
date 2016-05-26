@@ -31,7 +31,7 @@ var request = require('request');
 	        url : 'https://'+this.domainUrl+endpointUrl,
 	        json : true,
 	        headers : {
-	          "Authorization" : "Basic " + new Buffer(process.env.MONKEY_APP_ID+":"+process.env.MONKEY_APP_KEY).toString("base64")
+	          "Authorization" : "Basic " + new Buffer(this.appKey+":"+this.appSecret).toString("base64")
 	        }
 	      }
 
