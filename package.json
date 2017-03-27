@@ -1,6 +1,6 @@
 {
   "name": "criptext-monkey-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Criptext lib for calling the API REST of the Monkey Communication Protocol",
   "main": "monkey-api.js",
   "scripts": {
