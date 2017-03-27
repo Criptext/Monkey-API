@@ -14,7 +14,7 @@ var request = require('request');
     this.appKey = appKey;
     this.appSecret = appSecret;
 
-    this.domainUrl = 'monkey.criptext.com';
+    this.domainUrl = 'secure.criptext.com';
 
     return this;
   }
@@ -22,10 +22,10 @@ var request = require('request');
 
   	var proto = MonkeyApi.prototype;
   	var exports = this;
-  
+
 
    	proto.basicRequest = function basicRequest(methodName, endpointUrl, dataObj, callback){
-	    
+
 	    var requestObj={
 	        method : methodName,
 	        url : 'https://'+this.domainUrl+endpointUrl,
@@ -60,7 +60,3 @@ var request = require('request');
 	  }
 
 })();
-
-
-
-
